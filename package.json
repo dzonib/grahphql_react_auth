@@ -1,0 +1,32 @@
+{
+  "name": "grahphql_react_auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzonib/grahphql_react_auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzonib/grahphql_react_auth/issues"
+  },
+  "homepage": "https://github.com/dzonib/grahphql_react_auth#readme",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^14.1.1",
+    "jsonwebtoken": "^8.5.0",
+    "pg": "^7.8.2",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
